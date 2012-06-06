@@ -1,0 +1,3 @@
+[submodule "xbmc.put.io"]
+	path = xbmc.put.io
+	url = https://github.com/tunix/xbmc.put.io.git
