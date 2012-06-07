@@ -10,8 +10,8 @@ PLUGIN_ID = "plugin.video.oxygencloud"
 
 #pluginUrl = sys.argv[0]
 pluginId = int(sys.argv[1])
-itemId = sys.argv[2].lstrip("?")
-addon = xa.Addon(PLUGIN_ID)
+#itemId = sys.argv[2].lstrip("?")
+#addon = xa.Addon(PLUGIN_ID)
 
 # try:
 #     
