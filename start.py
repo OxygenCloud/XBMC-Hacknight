@@ -37,7 +37,7 @@ def sendToXbmc(listing):
     
     for item in listing:
         listItem = xbmcgui.ListItem(item)
-        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Downloads/',listItem,True)
+        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Desktop/[xDR] Delhi Belly - 07 - Switty Tera Pyaar Chaida.strm',listItem)
         
     xbmcplugin.endOfDirectory(pluginId)
     
