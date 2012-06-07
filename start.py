@@ -27,7 +27,7 @@ pluginId = int(sys.argv[1])
 
 def createListing():
     listing = []
-    listing.append('Doctor.Who.2005.6x13.The.Wedding.Of.River.Song.HDTV.XviD-FoV.avi')
+    listing.append('Movie Nov 03, 7 22 36 PM.mov')
     listing.append('20120606173915.txt')
     listing.append('The Thrid')
     return listing
@@ -37,7 +37,7 @@ def sendToXbmc(listing):
     
     for item in listing:
         listItem = xbmcgui.ListItem(item)
-        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Desktop/[xDR] Delhi Belly - 07 - Switty Tera Pyaar Chaida.mp3.strm',listItem)
+        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Desktop/Movie Nov 03, 7 22 36 PM.mov.strm',listItem)
         
     xbmcplugin.endOfDirectory(pluginId)
     
