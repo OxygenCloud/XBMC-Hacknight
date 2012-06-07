@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    Document   : settings.xml
+    Package    : GPodder Integration to XBMC
+    Author     : Ashley Kitson
+    Copyright  : 2010, Ashley Kitson, UK
+    License    : Gnu General Public License - see LICENSE.TXT
+    Description: English language strings for gpodder integration
+-->
+<strings>
+    <!-- Addon Settings Categories -->
+    <string id="30100">Local Library</string>
+    <string id="30110">GPodder Control</string>
+    <!-- Addon Settings -->
+	<string id="30200">GPodder Download Directory</string>
+	<string id="30210">Update on startup</string>
+	<string id="30220">Keep most recent copies</string>
+    <!-- Message strings -->
+    <string id="30300">Please set your GPodder path in Addon Setup</string>
+</strings>

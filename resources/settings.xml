@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : settings.xml
+    Package    : GPodder Integration to XBMC
+    Author     : Ashley Kitson
+    Copyright  : 2010, Ashley Kitson, UK
+    License    : Gnu General Public License - see LICENSE.TXT
+    Description: Settings for gpodder integration
+-->
+<settings>
+    <category label="30100">
+        <setting id="gpoPath" type="folder" label="30200" default="~/gpodder-downloads" />
+    </category>
+    <!--
+    <category label="30110">
+        <setting id="gpoUpdate" type="bool" label="30210" default="true" />
+        <setting id="gpoKeep" type="enum" label="30220" default="3" values="1|3|5|10|All"/>
+    </category>
+    -->
+</settings>
