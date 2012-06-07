@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="plugin.video.oxgencloud"
+    name="oxygencloud"
+    version="0.1"
+    provider-name="Oxygen Cloud">
+    <requires>
+        <import addon="xbmc.python" version="1.0" />
+        <import addon="script.module.simplejson" version="2.0.10" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Oxygen Cloud</summary>
+        <description lang="en">Oxygen harnesses the potent connectivity and elasticity of the cloud to improve access and sharing of content without making customers surrender their data or control.</description>
+    </extension>
+</addon>
