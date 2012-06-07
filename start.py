@@ -37,7 +37,7 @@ def sendToXbmc(listing):
     
     for item in listing:
         listItem = xbmcgui.ListItem(item)
-        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Downloads/',listItem,true)
+        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Downloads/',listItem,True)
         
     xbmcplugin.endOfDirectory(pluginId)
     
