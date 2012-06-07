@@ -37,7 +37,7 @@ def sendToXbmc(listing):
     
     for item in listing:
         listItem = xbmcgui.ListItem(item)
-        xbmcplugin.addDirectoryItem(pluginId,'https://i-7b3c1b1d.oxygencloud.com/storagegateway/download?c=c1a6571f-ea0a-4abb-b9c8-102189b0c3eb&s=120d863eb6d37764770ecb425a632accd1bc39e1&h=52a2f7689b26fc2a5bd27082a20a7f085e91e857',listItem)
+        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Desktop/The.Departed.2006.1080p.BluRay.DTS.x264.D-Z0N3/The.Departed.2006.1080p.BluRay.DTS.x264.D-Z0N3.mkv',listItem)
         
     xbmcplugin.endOfDirectory(pluginId)
     
