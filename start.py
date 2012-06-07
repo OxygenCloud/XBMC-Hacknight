@@ -30,6 +30,7 @@ def createListing():
     listing.append('The first')
     listing.append('The Second')
     listing.append('The Thrid')
+    return listing
     
 def sendToXbmc(listing):
     global pluginId
