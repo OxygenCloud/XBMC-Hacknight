@@ -27,8 +27,8 @@ pluginId = int(sys.argv[1])
 
 def createListing():
     listing = []
-    listing.append('The first')
-    listing.append('The Second')
+    listing.append('Doctor.Who.2005.6x13.The.Wedding.Of.River.Song.HDTV.XviD-FoV.avi')
+    listing.append('20120606173915.txt')
     listing.append('The Thrid')
     return listing
     
@@ -37,7 +37,7 @@ def sendToXbmc(listing):
     
     for item in listing:
         listItem = xbmcgui.ListItem(item)
-        xbmcplugin.addDirectoryItem(pluginId,'',listItem)
+        xbmcplugin.addDirectoryItem(pluginId,'https://i-7b3c1b1d.oxygencloud.com/storagegateway/download?c=c1a6571f-ea0a-4abb-b9c8-102189b0c3eb&s=120d863eb6d37764770ecb425a632accd1bc39e1&h=52a2f7689b26fc2a5bd27082a20a7f085e91e857',listItem)
         
     xbmcplugin.endOfDirectory(pluginId)
     
