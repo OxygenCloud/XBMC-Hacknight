@@ -1,4 +1,4 @@
-    <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     Document   : addon.xml
     Package    : GPodder Integration to XBMC
@@ -7,35 +7,13 @@
     License    : Gnu General Public License - see LICENSE.TXT
     Description: XBMC Addon settings for XBMC Gpodder integration
 -->
-<addon id="plugin.audio.oxygencloud" version="0.0.1" name="oxygencloud" provider-name="Oxygen Cloud">
+<addon id="plugin.video.oxygencloud" version="0.0.1" name="oxygencloud" provider-name="Oxygen Cloud">
   <extension point="xbmc.python.pluginsource" library="start.py">
 	<provides>audio video</provides>
   </extension> 
   <extension point="xbmc.addon.metadata">
 	<summary>Gpodder Integration</summary>
-	<summary lang="fr">Gpodder intégration</summary>
-	<summary lang="pl">Gpodder Integracji</summary>
-	<summary lang="cs">Gpodder integraci</summary>
-	<summary lang="de">Gpodder Integration</summary>
-	<summary lang="it">Gpodder Integrazione</summary>
-	<summary lang="es">Gpodder Integración</summary>
-	<summary lang="nl">Gpodder Integratie</summary>
-	<description>Will provide the ability to control Gpodder podcatching application from within XBMC including automating podcast downloads, managing subscriptions and episodes.  Current release allows you to see audio podcasts in the Music section and video podcasts in the Video section. You can automate GPodder by following the instructions in the README.txt file in the addon folder. If you think this is a useful module and would like to see it developed further please send an email to gpodxbmc@bbcb.co.uk</description>
-	<description lang="fr">Fournira la capacité de contrôler l'application gpodder baladodiffusion à partir de XBMC, y compris l'automatisation téléchargements podcast, la gestion des abonnements et les épisodes. Version actuelle vous permet de voir des podcasts audio dans la musique section et des podcasts vidéo dans la section Vidéo. Vous pouvez automatiser gpodder par suivant les instructions dans le fichier README.txt dans le dossier addon. Si vous pensez que ceci est un module utile et souhaite voir se développer s'il vous plaît envoyez un courriel à gpodxbmc@bbcb.co.uk</description>
-    <description lang="pl">Zapewni możliwość kontroli Gpodder podcatching wniosek w XBMC w tym automatyzacji podcast pliki do pobrania, prenumeraty zarządzania i epizody. Obecnego wydania pozwala zobaczyć podcastów audio w sekcji Muzyka i podcastów wideo w dziale Video. Możesz zautomatyzować GPodder postępując zgodnie z instrukcjami w pliku Readme.txt w folderze z dodatkiem. Jeśli uważasz, że jest to pożyteczne moduł i chciałbym zobaczyć bardziej szczegółowo, prosimy wysłać e-mail gpodxbmc@bbcb.co.uk</description>
-    <description lang="cs">Poskytne schopnost kontrolovat Gpodder podcatching žádosti do XBMC včetně automatizace podcast ke stažení, správu předplatného a epizod. Aktuální vydání si můžete zobrazit audio podcastů v sekci Hudba a video podcastů v sekci Video. Můžete automatizovat GPodder podle pokynů v souboru Readme.txt v addon složce. Pokud si myslíte, že to je užitečné modul a přeje si, aby ji dále rozvíjet, prosím, pošlete email na gpodxbmc@bbcb.co.uk</description>
-    <description lang="de">Wird die Fähigkeit zur Kontrolle gpodder Podcatching Antrag innerhalb von XBMC einschließlich Automatisierung Podcast-Downloads, Verwaltung der Abonnements und Episoden. Aktuelle Version können Sie Audio-Podcasts im Bereich Musik und Video-Podcasts in der Rubrik Video zu sehen. Sie können gpodder indem Sie die Anweisungen in der Datei Readme.txt in dem Addon Ordner automatisieren. Wenn Sie dieses Modul ist ein nützliches und denken würde gerne sehen, weiterentwickelt senden Sie bitte eine Email an gpodxbmc@bbcb.co.uk</description>
-    <description lang="it">Fornirà la capacità di controllare Gpodder podcatching applicazione all'interno di XBMC compresa l'automazione di download dei podcast, le sottoscrizioni di gestione e di episodi. La versione attuale permette di vedere i podcast audio nella sezione musica e podcast video nella sezione Video. È possibile automatizzare GPodder seguendo le istruzioni nel file README.TXT nella cartella addon. Se pensi che questo è un modulo utile e vorrei vederlo sviluppato ulteriormente si prega di inviare una email a gpodxbmc@bbcb.co.uk</description>
-    <description lang="es">Llevará a cabo la capacidad de controlar Gpodder podcatching aplicación desde el XBMC incluyendo la automatización de descargas de podcasts, las suscripciones y la gestión de episodios. La version actual le permite ver podcasts de audio en la sección de música y podcasts de vídeo en la sección Video. Puede automatizar GPodder siguiendo las instrucciones en el archivo Readme.txt en la carpeta addon. Si usted piensa que esto es un módulo de útiles y me gustaría verlo desarrollado por favor enviar un correo electrónico a gpodxbmc@bbcb.co.uk</description>
-    <description lang="nl">Zal bieden de mogelijkheid om de controle gpodder podcatching aanvraag vanuit XBMC inbegrip van het automatiseren podcast downloads, het beheer van abonnementen en episodes. Huidige versie stelt u in staat om audio podcasts te zien in de rubriek Muziek en video podcasts in de video sectie. U kunt automatiseren gpodder door het volgen van de instructies in het leesmij-bestand in de map addon. Als u denkt dat dit een nuttige module en zou graag zien dat het verder ontwikkeld stuur dan een e-mail naar gpodxbmc@bbcb.co.uk</description>
-    <disclaimer>The GPodder application must be installed and configured before installing this addon.  This addon was developed under Linux.  If you have problems on different platforms, please create a forum ticket at XBMC, preferably with a patch and I'll see what can be done</disclaimer>
-    <disclaimer lang="fr">La demande doit être gpodder installé et configuré avant d'installer cet addon. Cet addon a été développé sous Linux. Si vous avez des problèmes sur les différentes plates-formes, s'il vous plaît créer un ticket au forum XBMC, de préférence avec un patch et je verrai ce qu'on peut faire</disclaimer>
-    <disclaimer lang="pl">Stosowania GPodder musi być zainstalowany i skonfigurowany przed zainstalowaniem tego dodatku. Ten dodatek został opracowany pod Linuksem. Jeśli masz problemy na różnych platformach, utwórz bilet na forum XBMC, najlepiej z patcha i zobaczymy, co można zrobić</disclaimer>
-    <disclaimer lang="cs">Žádost GPodder musí být nainstalovány a nakonfigurovány před instalací této addon. Tento addon byl vyvinut pod Linuxem. Pokud máte problémy se na různých platformách, prosím vytvořte fórum lístek na XBMC, nejlépe s patch a uvidím co se dá dělat</disclaimer>
-    <disclaimer lang="de">Die gpodder Anwendungsprogramm muss installiert und konfiguriert werden vor der Installation dieses Addon. Dieses Addon wurde unter Linux entwickelt. Wenn Sie Probleme haben auf verschiedenen Plattformen, erstellen Sie bitte ein Forum Ticket an XBMC, vorzugsweise mit einem Patch, und ich werde sehen, was getan werden kann</disclaimer>
-    <disclaimer lang="it">La domanda GPodder deve essere installato e configurato prima di installare questo addon. Questo addon è stato sviluppato sotto Linux. Se si hanno problemi su piattaforme diverse, si prega di creare un biglietto forum a XBMC, preferibilmente con una patch e vedrò cosa si può fare</disclaimer>
-    <disclaimer lang="es">La aplicación GPodder debe estar instalado y configurado antes de instalar este complemento. Este complemento ha sido desarrollado bajo Linux. Si tiene problemas en diferentes plataformas, por favor cree un ticket foro en XBMC, preferiblemente con un parche y voy a ver qué se puede hacer</disclaimer>
-    <disclaimer lang="nl">De gpodder toepassing moet worden geïnstalleerd en geconfigureerd voor het installeren van deze addon. Deze addon is ontwikkeld onder Linux. Als u problemen hebt op verschillende platformen, maak dan svp een forum ticket bij XBMC, bij voorkeur met een patch en ik zal zien wat we kunnen doen</disclaimer>
+	<description>Will provide the ability to control Gpodder podcatching application from within XBMC including automating podcast downloads, managing subscriptions and episodes.  Current release allows you to see audio podcasts in the Music section and video podcasts in the Video section. You can automate GPodder by following the instructions in the README.txt file in the addon folder. If you think this is a useful module and would like to see it developed further please send an email</description>
 	<platform>all</platform>
   </extension> 
 </addon>
