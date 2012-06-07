@@ -37,7 +37,7 @@ def sendToXbmc(listing):
     
     for item in listing:
         listItem = xbmcgui.ListItem(item)
-        xbmcplugin.addDirectoryItem(pluginId,'https://dl.dropbox.com/s/6ntqco33ae6mzs7/Movie%20Nov%2003%2C%207%2033%2020%20PM.mov?dl=1',listItem)
+        xbmcplugin.addDirectoryItem(pluginId,'/Users/zuhaib/Downloads/Doctor.Who.2005.6x13.The.Wedding.Of.River.Song.HDTV.XviD-FoV.avi.strm',listItem)
         
     xbmcplugin.endOfDirectory(pluginId)
     
