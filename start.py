@@ -4,6 +4,7 @@ import sys
 
 import xbmcgui
 import xbmcplugin
+import xbmcaddon
 
 
 PLUGIN_ID = "plugin.video.oxygencloud"
@@ -11,7 +12,7 @@ PLUGIN_ID = "plugin.video.oxygencloud"
 pluginId = int(sys.argv[1])
 
 def createListing():
-    cwd = addon.getAddonInfo('path')
+    cwd = Addon.getAddonInfo('path')
     os.system ('java -jar %s/runtime.jar' % cwd)
     listing = []
     listing.append('Video')
