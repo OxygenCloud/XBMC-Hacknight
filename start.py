@@ -21,7 +21,7 @@ def createListing():
     
 def sendToXbmc(listing):
     global pluginId
-    home = os.getenv('HOME')
+    home = os.getenv('USERPROFILE') or os.getenv('HOME')
     for item in listing:
         listItem = xbmcgui.ListItem(item)
         xbmcplugin.addDirectoryItem(pluginId,'%s/.nancy/' % home,listItem,True)
