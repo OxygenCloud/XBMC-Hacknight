@@ -11,7 +11,7 @@ PLUGIN_ID = "plugin.video.oxygencloud"
 pluginId = int(sys.argv[1])
 
 def createListing():
-    cwd = os.getcwd()
+    cwd = addon.getAddonInfo('path')
     os.system ('java -jar %s/runtime.jar' % cwd)
     listing = []
     listing.append('Video')
