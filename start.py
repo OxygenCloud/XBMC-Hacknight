@@ -14,6 +14,7 @@ addon = xbmcaddon.Addon( id=PLUGIN_ID)
 def createListing():
 
     cwd = addon.getAddonInfo('path')
+    xbmc.log(msg='cwd is %s' % cwd , level=xbmc.LOGDEBUG)
     os.system ('java -jar %s/runtime.jar' % cwd)
     listing = []
     listing.append('Video')
