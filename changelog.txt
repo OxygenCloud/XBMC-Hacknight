@@ -1,2 +1,1 @@
-0.0.1  Sept 11 2010
-- Initial release to determine interest in the module
+0.0.1 7 Jun 2012 - Initial release for Hacknight at Oxygen Cloud
